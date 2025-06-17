@@ -52,7 +52,7 @@ def main():
         ## display of the prediction
 
         if marks > 90:
-            st.baloons()
+            st.balloons()
             st.success(f"Congrats {name}! You are performing excellently with a score of {marks}.")
         elif marks >35:
             st.warning(f"{name}! You are performing well with a score of {marks}.")
